@@ -4,20 +4,42 @@
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
+.blg div {display: flex}
+.blg div div, .blg div a {flex-shrink: 0; padding-bottom: 0.5em; padding-top: 0.5em}
+.blg-yyyymmdd {width: 6em}
+.blg-num {width: 3em}
 img {max-width: 100%; height: auto}
 pre {max-width: 100%; height: auto; white-space:pre-wrap}
-.lnkrow {display: flex; flex-direction: row; justify-content:space-between; padding-bottom: 0.5em; padding-top: 0.5em; font-style:italic}
+.nav {display: flex; flex-direction: row; justify-content: space-between; padding-bottom: 0.5em; padding-top: 0.5em; font-style: italic}
 </style>
 <link rel="icon" href="data:;base64,=">
 <title>Blog</title>
 </head>
 <body>
-<h3 id="page-header">Blog</h3>
-<hr>
-Under Construction :)
+<h1>Blog</h1>
+<div class="nav">
+<a href="./index.html">Home</a>
+<a href="./about.html">About</a>
+<a href="./blog.html">Blog</a>
+<a href="https://github.com/garrettsickles">Github</a>
+</div>
 
 <hr>
-<div class="lnkrow">
+<div class="blg">
+<div>
+<div class="blg-yyyymmdd">Date</div>
+<div class="blg-num">ID</div>
+<div>Title</div>
+</div>
+<div>
+<div class="blg-yyyymmdd">2021-06-05</div>
+<div class="blg-num">1</div>
+<a href="./blog/1-HelloWorld.html"/>Hello World!</a>
+</div>
+</div>
+
+<hr>
+<div class="nav">
 <a href="./index.html">Home</a>
 <a href="./about.html">About</a>
 <a href="./blog.html">Blog</a>
